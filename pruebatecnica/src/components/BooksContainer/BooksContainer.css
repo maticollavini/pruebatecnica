@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Noto+Serif&family=Oswald:wght@200;300;400;600&family=Playfair+Display&family=Playfair:wght@300&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+* {
+    font-family: 'Noto Serif', serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.home-container{
+        text-align: start;
+        margin: 30px
+}
+
+.wrapper {
+    display: flex;
+}
+
+.book-container {
+    flex: 1; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.product {
+    width: 20%;
+    height: 40vh;
+    box-sizing: border-box;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 1%;
+}
+
+.product span{
+    font-weight: bolder;
+}
+
+.cart-container {
+    flex: 1; 
+    height: 100vh;
+    background-color: rgb(212, 212, 212);
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.cart{
+    text-align: center;
+    margin-top: 20px;
+}
+
