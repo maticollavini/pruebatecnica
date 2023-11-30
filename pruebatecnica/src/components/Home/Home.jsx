@@ -1,4 +1,4 @@
-import { HomeContainer } from "../BooksContainer/BooksContainer"
+import { HomeContainer } from "../HomeContainer/HomeContainer"
 import "./Home.css"
 
 export const Home = () => {
