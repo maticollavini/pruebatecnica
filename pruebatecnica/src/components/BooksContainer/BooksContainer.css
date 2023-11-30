@@ -9,10 +9,15 @@
 
 .home-container{
         text-align: start;
-        margin: 30px
+        margin: 30px;
+        width: 40%;
 }
 
 .home-container button{
+    margin: 10px;
+}
+
+.home-container option{
     margin: 10px;
 }
 
@@ -26,20 +31,39 @@
     flex-wrap: wrap;
     justify-content: flex-start;
     overflow: hidden;
+    max-height: 200vh;
 }
 
 img {
     width: 100%;
+    border-radius: 15px;
 }
 
 .product {
     width: 20%;
-    height: 40vh;
+    height: auto;
+    max-height: 45vh;
     box-sizing: border-box;
     background-color: #fff;
     padding: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin: 1%;
+    border-radius: 15px;
+}
+
+.erase-product-container{
+    display: flex;
+    justify-content: end;
+}
+
+.erase-product{
+    margin-bottom: 5px;
+    height: 25px;
+    width: 25px;
+}
+
+.erase-product:hover{
+    cursor: grab;
 }
 
 .product span{
@@ -47,8 +71,10 @@ img {
 }
 
 .cart-container {
+    margin: 20px;
     flex: 1; 
-    height: 100vh;
+    height: auto;
+    min-height: 70vh;
     flex-direction: column;
     background-color: rgb(212, 212, 212);
     border: 2px solid black;
@@ -67,3 +93,19 @@ img {
     margin-top: 20px;
 }
 
+.filters-container{
+    display: flex;
+}
+
+.filter-buttons{
+    display: flex;
+    justify-content: start;
+}
+
+.filter-buttons button p{
+    margin: 5px;
+}
+
+.filters{
+    margin: 10px;
+}
